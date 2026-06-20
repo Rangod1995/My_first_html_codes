@@ -1,0 +1,85 @@
+.top_r{
+    text-align: right;
+    color: white;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 12px;
+    margin-left: 300px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+
+
+
+}
+
+.img {
+    width: 420px;
+    height: 190px;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    position: relative;
+
+}
+.share-icon {
+  color: #1a73e8;
+  transition: 0.2s;
+  position: absolute;
+  margin-bottom: 100px;
+
+  
+
+}
+
+input.placeh {
+    padding: 15px;
+    width: 380px;
+    border-radius: 30px;
+    text-align: center;
+    font: 1em sans-serif;
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
+input.icon {
+   background-color: #004A77;
+   margin-top: 100px;
+   margin-left: 350px;
+   width: 150px;
+   border-radius: 20px;
+}
+.shortcut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plus-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.402);
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.shortcut p{
+    margin-top: 10px;
+    margin-left: 300px;
+}
+    
+    
+    
+input::placeholder {
+    color:black;
+    height: 100px;
+    
+}

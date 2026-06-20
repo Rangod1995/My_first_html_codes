@@ -1,0 +1,20 @@
+body {
+    background-image: url("5ce9d55d2e67a3f66e3a41ba6042d683.jpg")
+    
+}
+h1 {
+    color: aquamarine;
+}
+h1{border-style: dashed;}
+p {
+    color: brown;
+}
+p{
+    color: blue;
+    border-style: solid dotted;
+    border-radius: 15px;
+    
+}p{margin-top: 50px;}
+p{
+    padding: 1px 20px 70px 100px;
+}
