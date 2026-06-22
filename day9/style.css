@@ -1,202 +1,132 @@
-.b {
-    margin-left: 150px;
-    position: relative;
-    top: -40px;
-    word-spacing: 15px;
-    
-
+.a {
+    margin-left: 90px;
+    color: aliceblue;
 }
 
-.a
-{
-margin-left: 30px;
+.b {
+    color: aliceblue;
+    word-spacing: 20px;
+    position: relative;
+    top: -50px;
+    margin-left: 700px;
 }
 
 button.c {
-    border-radius: 30px;
-    color: black;
-    background-color: white;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: -90px;
+    margin-left: 1120px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: aliceblue;
 }
 
-.d {
+button.d {
+    width: 140px;
+    height: 30px;
+    margin-left: 90px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
     position: relative;
-    top: -20px;
-    color: green;
+    top: 50px;
 }
 
 .e {
+    margin-left: 88px;
+    color: blueviolet;
     position: relative;
-    top: -20px;
-    color: aliceblue;
+    top: 40px;
 }
 
-button.f {
+.f {
+    color: aquamarine;
+    margin-left: 90px;
     position: relative;
-    top: -130px;
-    margin-left: 380px;
-    border-radius: 70px;
-    width: 130px;
-    height: 130px;
-    font-size:xx-large;
-    color: green;
-    background-color: blueviolet;
-    
+    top: 30px;
 }
 
 button.g {
-    width: 140px;
-    height: 30px;
-    background-color: black;
-    color: aliceblue;
-    border-radius: 10px;
-    margin-left: 489px;
+    width: 280px;
+    height: 280px;
+    border-radius: 140px;
+    margin-left: 880px;
     position: relative;
-    top: -255px;
-    font-style: italic;
+    top: -130px;
+    font-size: 90px;
+    background-color:cyan
 }
 
 button.h {
-    width: 100px;
-    height:25px ;
+    width: 150px;
+    height: 30px;
     position: relative;
-    top: -225px;
-    margin-left:512px;
-    background-color:rgba(0, 0, 0, 0.502) ;
-    color: azure;
-    font-style: oblique;
+    top: -390px;
+    margin-left: 1105px;
+    border-radius: 10px;
+    background-color: brown;
+    color: beige;
 }
 
 button.i {
-    width: 145px;
+    width: 100px;
     height: 30px;
     position: relative;
-    top: -195px;
-    margin-left:275px ;
+    top: -290px;
+    margin-left: 1155px;
     border-radius: 10px;
-    color: rgba(209, 214, 212, 0.911);
-    background-color: brown;
 }
 
 button.j {
-    width: 180px;
-    height:50px;
+    width: 170px;
+    height: 30px;
     position: relative;
-    top: -150px;
+    top: -260px;
+    margin-left: 750px;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.436);
+    background-color: indigo;
     color: beige;
-    text-align: center;
 }
 
 button.k {
-    width: 150px;
-    height: 50px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 20px;
     position: relative;
-    top: -200px;
-    border-radius: 10px;
-    margin-left: 190px;
+    top: -150px;
+    margin-left: -830px;
+    background-color: tomato;
+    color: deepskyblue;
 }
 
 button.l {
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
     position: relative;
-    top: -240px;
-    margin-left: 195px;
-    color: rgba(14, 24, 24, 0.79);
-    transform: rotate(-50deg);
-    cursor: pointer;
-    border: none;
-    font-size: 20px;
-    background: none;
+    top: -150px;
+    border-radius: 20px;
 }
 
-button.m {
+.m {
+    color: gold;
     position: relative;
-    top:-270px;
-    color: azure;
-    border: none;
-    background-color:rgba(0, 0, 0, 0.023) ;
-    font-size: 20px;
-    transform: rotate(-50deg);
+    top: -250px;
+    margin-left: 700px;
 }
 
-.loader {
-    width: 10px;
-    height: 10px;
-    border: 3px solid lightgray;
-    border-top: 3px solid black;
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
+.n {
+    color: dodgerblue;
     position: relative;
-    top: -330px;
-    margin-left: 360px;
+    top: -260px;
+    margin-left: 695px;
 }
 
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-button.n {
+.o {
+    margin-left: 90px;
     position: relative;
-    top:-340px;
-    color: azure;
-    border: none;
-    background-color:rgba(0, 0, 0, 0.023) ;
-    font-size: 20px;
-    transform: rotate(230deg);
-    margin-left: 340px;
-}
-
-    .fa-facebook {
-    font-size: 33px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: blue;
-    position: relative;
-    top: -275px;
-}
-
-.icon-circle1 {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #5111d2;
-    position: relative;
-    top: -307px;
-    margin-left: 50px;
-}
-
-.icon-circle2 {
-    width: 33px;
-    height: 33px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #f2f2f2;
-    position: relative;
-    top: -340px;
-    margin-left: 100px;
-}
-
-.icon-circle3 {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #7a0b14f7;
-    position: relative;
-    top: -374px;
-    margin-left: 150px;
+    top: -170px;
+    word-spacing: 50px;
 }
