@@ -1,0 +1,132 @@
+.a {
+    margin-left: 90px;
+    color: aliceblue;
+}
+
+.b {
+    color: aliceblue;
+    word-spacing: 20px;
+    position: relative;
+    top: -50px;
+    margin-left: 700px;
+}
+
+button.c {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: -90px;
+    margin-left: 1120px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+button.d {
+    width: 140px;
+    height: 30px;
+    margin-left: 90px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+}
+
+.e {
+    margin-left: 88px;
+    color: blueviolet;
+    position: relative;
+    top: 40px;
+}
+
+.f {
+    color: aquamarine;
+    margin-left: 90px;
+    position: relative;
+    top: 30px;
+}
+
+button.g {
+    width: 280px;
+    height: 280px;
+    border-radius: 140px;
+    margin-left: 880px;
+    position: relative;
+    top: -130px;
+    font-size: 90px;
+    background-color:cyan
+}
+
+button.h {
+    width: 150px;
+    height: 30px;
+    position: relative;
+    top: -390px;
+    margin-left: 1105px;
+    border-radius: 10px;
+    background-color: brown;
+    color: beige;
+}
+
+button.i {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: -290px;
+    margin-left: 1155px;
+    border-radius: 10px;
+}
+
+button.j {
+    width: 170px;
+    height: 30px;
+    position: relative;
+    top: -260px;
+    margin-left: 750px;
+    border-radius: 10px;
+    background-color: indigo;
+    color: beige;
+}
+
+button.k {
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 20px;
+    position: relative;
+    top: -150px;
+    margin-left: -830px;
+    background-color: tomato;
+    color: deepskyblue;
+}
+
+button.l {
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+    position: relative;
+    top: -150px;
+    border-radius: 20px;
+}
+
+.m {
+    color: gold;
+    position: relative;
+    top: -250px;
+    margin-left: 700px;
+}
+
+.n {
+    color: dodgerblue;
+    position: relative;
+    top: -260px;
+    margin-left: 695px;
+}
+
+.o {
+    margin-left: 90px;
+    position: relative;
+    top: -170px;
+    word-spacing: 50px;
+}
