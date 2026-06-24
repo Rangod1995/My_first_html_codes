@@ -1,6 +1,9 @@
 .a {
-    margin-left: 90px;
-    color: aliceblue;
+    margin-left:100px;
+    color: white;
+    position: relative;
+    
+    
 }
 
 .b {
@@ -17,7 +20,7 @@ button.c {
     position: relative;
     top: -90px;
     margin-left: 1120px;
-    background-color: blueviolet;
+    background-color: blue;
     border-radius: 10px;
     color: aliceblue;
 }
@@ -35,13 +38,13 @@ button.d {
 
 .e {
     margin-left: 88px;
-    color: blueviolet;
+    color: white;
     position: relative;
     top: 40px;
 }
 
 .f {
-    color: aquamarine;
+    color: aliceblue;
     margin-left: 90px;
     position: relative;
     top: 30px;
@@ -55,7 +58,7 @@ button.g {
     position: relative;
     top: -130px;
     font-size: 90px;
-    background-color:cyan
+    background-color:blue
 }
 
 button.h {
@@ -65,7 +68,7 @@ button.h {
     top: -390px;
     margin-left: 1105px;
     border-radius: 10px;
-    background-color: brown;
+    background-color: navy;
     color: beige;
 }
 
@@ -76,6 +79,8 @@ button.i {
     top: -290px;
     margin-left: 1155px;
     border-radius: 10px;
+    background-color: navy;
+    color: beige;
 }
 
 button.j {
@@ -85,7 +90,7 @@ button.j {
     top: -260px;
     margin-left: 750px;
     border-radius: 10px;
-    background-color: indigo;
+    background-color: blue;
     color: beige;
 }
 
@@ -97,8 +102,8 @@ button.k {
     position: relative;
     top: -150px;
     margin-left: -830px;
-    background-color: tomato;
-    color: deepskyblue;
+    background-color: navy;
+    color: white;
 }
 
 button.l {
@@ -108,6 +113,8 @@ button.l {
     position: relative;
     top: -150px;
     border-radius: 20px;
+    background-color: navy;
+    color: aliceblue;
 }
 
 .m {
