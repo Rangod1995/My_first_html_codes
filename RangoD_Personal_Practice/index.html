@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Variables Comparison</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f4f6f9;
+      color: #333;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #0d47a1;
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #666;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 5px 15px rgba(0,0,0,.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th {
+      background: #1565c0;
+      color: white;
+      padding: 15px;
+    }
+
+    td {
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    tr:hover {
+      background: #f1f7ff;
+    }
+
+    .var {
+      color: yellow;
+      font-weight: bold;
+    }
+
+    .let {
+      color: white;
+      font-weight: bold;
+    }
+
+    .const {
+      color: gold;
+      font-weight: bold;
+    }
+
+    .examples {
+      margin-top: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+    }
+
+    pre {
+      background: #272822;
+      color: #f8f8f2;
+      padding: 15px;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+
+<h1>JavaScript: var vs let vs const</h1>
+<p>Understanding the differences between JavaScript variable declarations.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th class="var">var</th>
+      <th class="let">let</th>
+      <th class="const">const</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Scope</td>
+      <td>Function Scope</td>
+      <td>Block Scope</td>
+      <td>Block Scope</td>
+    </tr>
+
+    <tr>
+      <td>Can be Reassigned?</td>
+      <td>✅ Yes</td>
+      <td>✅ Yes</td>
+      <td>❌ No</td>
+    </tr>
+
+    <tr>
+      <td>Can be Redeclared?</td>
+      <td>✅ Yes</td>
+      <td>❌ No</td>
+      <td>❌ No</td>
+    </tr>
+
+    <tr>
+      <td>Hoisted?</td>
+      <td>✅ Yes (initialized as undefined)</td>
+      <td>✅ Yes (Temporal Dead Zone)</td>
+      <td>✅ Yes (Temporal Dead Zone)</td>
+    </tr>
+
+    <tr>
+      <td>Must Assign a Value?</td>
+      <td>❌ No</td>
+      <td>❌ No</td>
+      <td>✅ Yes</td>
+    </tr>
+
+    <tr>
+      <td>Recommended?</td>
+      <td>❌ Rarely</td>
+      <td>✅ Yes</td>
+      <td>✅ Preferred for constants</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="examples">
+
+  <div class="card">
+    <h2 class="var">var Example</h2>
+    <pre>
+var age = 20;
+var age = 25;   // Allowed
+age = 30;       // Allowed
+console.log(age);
+    </pre>
+  </div>
+
+  <div class="card">
+    <h2 class="let">let Example</h2>
+    <pre>
+let score = 50;
+score = 80;     // Allowed
+
+// let score = 90;
+// Error: Cannot redeclare
+    </pre>
+  </div>
+
+  <div class="card">
+    <h2 class="const">const Example</h2>
+    <pre>
+const PI = 3.14159;
+
+// PI = 3.14;
+// Error: Assignment to constant
+
+console.log(PI);
+    </pre>
+  </div>
+
+</div>
+
+</body>
+</html>

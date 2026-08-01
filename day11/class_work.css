@@ -1,0 +1,108 @@
+.a {
+    position: relative;
+    top: -50px;
+    margin-left: 1100px;
+}
+
+.b {
+    position: relative;
+    top: -90px;
+    margin-left: 1180px;
+    background-color: blue;
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+button.c {
+    position: relative;
+    width: 1200px;
+    height: 120px;
+    border-radius: 30px;
+    text-align: justify;
+    font-size: 20px;
+    background-color: midnightblue;
+    color: aliceblue;
+}
+
+button.d {
+    position: relative;
+    top:-70px;
+    margin-left: 1020px;
+    width: 130px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+p.e {
+    position: relative;
+    top: -37px;
+    margin-left: 150px;
+}
+
+.f {
+    display: flexbox;
+    width: 200px;
+    height: 100px;
+}
+
+p.g {
+    position: relative;
+    top: -38px;
+    margin-left: 180px;
+}
+
+.h {
+    display: flex;
+    gap: 10px;
+
+    
+
+}
+
+button.i {
+    width: 35px;
+    height: 20px;
+    position: relative;
+    top: -23px;
+    margin-left: 140px;
+    border-radius: 8px;
+}
+
+button.j {
+    width: 35px;
+    height: 20px;
+    position: relative;
+    top: -23px;
+    margin-left: 130px;
+    border-radius: 8px;
+}
+
+button.k {
+    width: 35px;
+    height: 20px;
+    position: relative;
+    top: -23px;
+    margin-left: 130px;
+    border-radius: 8px;
+}
+
+button.l {
+    width: 35px;
+    height: 20px;
+    position: relative;
+    top: -23px;
+    margin-left: 135px;
+    border-radius: 8px;
+}
+
+button.m {
+    width: 35px;
+    height: 20px;
+    position: relative;
+    top: -23px;
+    margin-left: 130px;
+    border-radius: 8px;
+}

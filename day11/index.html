@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: dodgerblue;
+            /*flex-direction: column; */
+           /* flex-direction: column-reverse;*/
+            flex-wrap: wrap;
+            /*flex-wrap: wrap-reverse;*/
+           /* justify-content: center;*/
+           /* justify-content: start;*/
+           /* justify-content: flex-end;*/
+           /* justify-content: space-around;*/
+          /*  justify-content: space-between;*/
+            justify-content: space-evenly;
+
+            /*align-items: center;*/
+           /* align-items: flex-start;*/
+            align-items: flex-end;
+        }
+
+        .container div{
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 20px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Create Flex Container</h1>
+    <div class="container">
+        <div>Salad</div>
+        <div>Hamburger</div>
+        <div>Peanut</div>
+        <div>Sushi</div>
+        <div>Cake</div>
+        <div>biscuits</div>
+        <div>bread</div>
+        <div>butter</div>
+        <div>suya</div>
+        <div>sharwama</div>
+        <div>macroni</div>
+    </div>
+
+    <p>Flex must have a parent element with the display property set to flex or in-line flex.</p>
+    <p>Direct child element of the flex container automatically becomes flex items.</p>
+    
+</body>
+</html>

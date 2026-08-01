@@ -2,8 +2,6 @@
     margin-left:100px;
     color: white;
     position: relative;
-    
-    
 }
 
 .b {
@@ -80,7 +78,6 @@ button.i {
     margin-left: 1155px;
     border-radius: 10px;
     background-color: navy;
-    color: beige;
 }
 
 button.j {
@@ -114,7 +111,7 @@ button.l {
     top: -150px;
     border-radius: 20px;
     background-color: navy;
-    color: aliceblue;
+    color: beige;
 }
 
 .m {

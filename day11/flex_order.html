@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordering Of Flex Items</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: darkgoldenrod;
+        }
+
+        .container div{
+            background-color: aliceblue;
+            color: black;
+            width: 100px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .container1 {
+            display: flex;
+            background-color: darkgoldenrod;
+            }
+
+         .container1 div{
+             background-color: aliceblue;
+            color: black;
+            width: 100px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .container2 {
+            display: flex;
+            background-color: darkgoldenrod;
+            }
+
+         .container2 div{
+             background-color: aliceblue;
+             border: 2px solid;
+            color: black;
+            width: 100px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+         }
+
+         .container3 {
+            display: flex;
+            background-color: blue;
+            height: 100px;
+         }
+
+         .container3 div{
+            background-color: aliceblue;
+            color: black;
+            width: 100px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+         }
+    </style>
+</head>
+<body>
+    <h1>The Order Property Of Flex Box</h1>
+
+    <p>
+        We use the property of flex box to specify the order of the flex
+        items inside the flex container.
+    </p>
+
+    <div class="container">
+        <div style="order: 3;">This will take order 1</div>
+        <div style="order: 2;">This will take order 2</div>
+        <div style="order: 4;">This will take order 3</div>
+        <div style="order: 1;">This will take order 4</div>
+
+    </div>
+
+    <h1>The flex-grow Property</h1>
+    <p>Make the third flex item grow four times faster than the other flex items:</p>
+    <div class="container1">
+    <div style="flex-grow: 1;">Cake</div>
+    <div style="flex-grow: 2;">SUshi</div>
+    <div style="flex-grow: 4;">Hamburger</div>
+    </div>
+
+    <h1>Flex-shrink</h1>
+    <div class="container2">
+        <div style="flex-shrink: 4;">butter</div>
+        <div style="flex-shrink: 2;">Sushi</div>
+        <div style="flex-shrink: 2;">bread</div>
+    </div>
+
+    <h1>Self-align</h1>
+
+    <div class="container3">
+        <div style="align-self: center;">1</div>
+        <div style="align-self: baseline;">2</div>
+        <div style="align-self: flex-end;">3</div>
+        <div style="align-self: first baseline;">4</div>
+
+    </div>
+    
+</body>
+</html>

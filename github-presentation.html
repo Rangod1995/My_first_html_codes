@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GitHub Presentation</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0d1117;
+    color:white;
+    overflow:hidden;
+}
+
+.presentation{
+    width:100vw;
+    height:100vh;
+    position:relative;
+}
+
+.slide{
+    width:100%;
+    height:100%;
+    display:none;
+    padding:70px;
+    animation:fade .6s ease;
+}
+
+.slide.active{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+@keyframes fade{
+    from{
+        opacity:0;
+        transform:translateX(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+h1{
+    color:#58a6ff;
+    font-size:55px;
+    margin-bottom:30px;
+}
+
+h2{
+    color:#58a6ff;
+    margin-bottom:25px;
+    font-size:45px;
+}
+
+p{
+    font-size:25px;
+    line-height:1.8;
+}
+
+ul{
+    margin-left:40px;
+    margin-top:20px;
+}
+
+li{
+    margin:15px 0;
+    font-size:25px;
+}
+
+.controls{
+    position:absolute;
+    bottom:25px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+button{
+    background:#238636;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+button:hover{
+    background:#2ea043;
+}
+
+.counter{
+    position:absolute;
+    top:20px;
+    right:30px;
+    font-size:22px;
+    color:#58a6ff;
+}
+
+.footer{
+    position:absolute;
+    bottom:90px;
+    left:70px;
+    color:#8b949e;
+    font-size:18px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="presentation">
+
+<div class="counter">
+<span id="current">1</span> / 11
+</div>
+
+<!-- Slide 1 -->
+
+<section class="slide active">
+<h1>GitHub Presentation</h1>
+
+<p>
+Understanding GitHub and how it helps developers collaborate,
+manage projects, and build software efficiently.
+</p>
+
+<div class="footer">
+Prepared by: RangoD
+</div>
+
+</section>
+
+<!-- Slide 2 -->
+
+<section class="slide">
+
+<h2>What is GitHub?</h2>
+
+<ul>
+<li>Cloud-based platform for hosting Git repositories.</li>
+<li>Allows developers to store and manage code.</li>
+<li>Supports collaboration with teams.</li>
+<li>Used by millions of developers worldwide.</li>
+</ul>
+
+</section>
+
+<!-- Slide 3 -->
+
+<section class="slide">
+
+<h2>What is Git?</h2>
+
+<ul>
+<li>Git is a Version Control System.</li>
+<li>Tracks changes made to files.</li>
+<li>Allows developers to return to previous versions.</li>
+<li>Supports teamwork without overwriting code.</li>
+</ul>
+
+</section>
+
+<!-- Slide 4 -->
+
+<section class="slide">
+
+<h2>Git vs GitHub</h2>
+
+<ul>
+<li>Git is software installed on your computer.</li>
+<li>GitHub is an online hosting service.</li>
+<li>Git manages versions.</li>
+<li>GitHub stores repositories online.</li>
+</ul>
+
+</section>
+
+<!-- Slide 5 -->
+
+<section class="slide">
+
+<h2>Main Features</h2>
+
+<ul>
+<li>Repositories</li>
+<li>Branches</li>
+<li>Commits</li>
+<li>Pull Requests</li>
+<li>Issues</li>
+<li>GitHub Actions</li>
+</ul>
+
+</section>
+
+<!-- Slide 6 -->
+
+<section class="slide">
+
+<h2>Repositories</h2>
+
+<ul>
+<li>Contain project files.</li>
+<li>Can be Public or Private.</li>
+<li>Include README documentation.</li>
+<li>Can store source code and assets.</li>
+</ul>
+
+</section>
+
+<!-- Slide 7 -->
+
+<section class="slide">
+
+<h2>Branches & Commits</h2>
+
+<ul>
+<li>Create separate branches for new features.</li>
+<li>Commit changes regularly.</li>
+<li>Use meaningful commit messages.</li>
+<li>Merge completed work into the main branch.</li>
+</ul>
+
+</section>
+
+<!-- Slide 8 -->
+
+<section class="slide">
+
+<h2>Pull Requests</h2>
+
+<ul>
+<li>Request code review.</li>
+<li>Discuss improvements.</li>
+<li>Review before merging.</li>
+<li>Improve code quality.</li>
+</ul>
+
+</section>
+
+<!-- Slide 9 -->
+
+<section class="slide">
+
+<h2>Collaboration</h2>
+
+<ul>
+<li>Fork repositories.</li>
+<li>Report Issues.</li>
+<li>Review Pull Requests.</li>
+<li>Use GitHub Projects.</li>
+<li>Automate tasks using GitHub Actions.</li>
+</ul>
+
+</section>
+
+<!-- Slide 10 -->
+
+<section class="slide">
+
+<h2>Best Practices</h2>
+
+<ul>
+<li>Commit frequently.</li>
+<li>Write clear README files.</li>
+<li>Use .gitignore.</li>
+<li>Protect the main branch.</li>
+<li>Review code before merging.</li>
+</ul>
+
+</section>
+
+<!-- Slide 11 -->
+
+<section class="slide">
+
+<h2>Conclusion</h2>
+
+<p>
+
+GitHub has become the standard platform for software development.
+It enables collaboration, version control, automation, and project
+management, making it an essential tool for both beginners and
+professional developers.
+
+</p>
+
+</section>
+
+<div class="controls">
+
+<button onclick="previousSlide()">◀ Previous</button>
+
+<button onclick="nextSlide()">Next ▶</button>
+
+</div>
+
+</div>
+
+<script>
+
+const slides=document.querySelectorAll(".slide");
+
+let currentSlide=0;
+
+function showSlide(index){
+
+slides.forEach(slide=>slide.classList.remove("active"));
+
+slides[index].classList.add("active");
+
+document.getElementById("current").textContent=index+1;
+
+}
+
+function nextSlide(){
+
+currentSlide++;
+
+if(currentSlide>=slides.length){
+
+currentSlide=0;
+
+}
+
+showSlide(currentSlide);
+
+}
+
+function previousSlide(){
+
+currentSlide--;
+
+if(currentSlide<0){
+
+currentSlide=slides.length-1;
+
+}
+
+showSlide(currentSlide);
+
+}
+
+document.addEventListener("keydown",(e)=>{
+
+if(e.key==="ArrowRight"){
+
+nextSlide();
+
+}
+
+if(e.key==="ArrowLeft"){
+
+previousSlide();
+
+}
+
+});
+
+</script>
+
+</body>
+</html>
